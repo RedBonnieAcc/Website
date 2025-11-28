@@ -2,11 +2,11 @@ const container = document.querySelector('.container');
 const totalDoors = 24; // 4 columns x 6 rows
 
 const today = new Date();
-//const currentDay = today.getDate();
-//const currentMonth = today.getMonth();
+const currentDay = today.getDate();
+const currentMonth = today.getMonth();
 
-const currentDay = 7;  // Values change if neeed be
-const currentMonth = 11; // Values change if neeed be
+//const currentDay = 7;  // Values change if neeed be
+//const currentMonth = 11; // Values change if neeed be
  
 // Example: content for each door
 // Each door can either have a video or a link
@@ -80,6 +80,7 @@ if (currentMonth === 11) { // December
     container.style.justifyContent = "center";
     container.style.alignItems = "center";
 }
+
 
 
 
