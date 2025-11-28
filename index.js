@@ -11,13 +11,15 @@ const currentMonth = 11; // Values change if neeed be
 // Example: content for each door
 // Each door can either have a video or a link
 const doorContent = {
-    1: { type: 'video', src: 'videos/door1.mp4' },
-    2: { type: 'link', src: 'https://valeapopi.blogspot.com/2025/11/1-decembrie-in-1755-pe-data-de-1.html' },
-    3: { type: 'video', src: 'videos/door3.mp4' },
-    4: { type: 'link', src: 'https://youtube.com/' },
+    1: { type: 'link', src: 'https://youtu.be/BVMAw2EH-cA' },
+    2: { type: 'link', src: 'https://www.youtube.com/watch?v=S4Y48wUaRoA' },
+    3: { type: 'link', src: 'https://youtu.be/fl2uKmio8lQ' },
+    4: { type: 'link', src: 'https://youtu.be/bgzcctgbT-I' },
+    5: { type: 'link', src: 'https://youtu.be/qO1rGpQpl_o' },
+    6: { type: 'link', src: 'https://youtu.be/tV-JaXnH-qY' },
+    7: { type: 'link', src: 'https://youtu.be/iI9vYl10PlM' },
     // ...add more doors as needed
 };
-
 // Create a display area below the calendar for videos
 const display = document.createElement('div');
 display.classList.add('display-area');
@@ -78,6 +80,7 @@ if (currentMonth === 11) { // December
     container.style.justifyContent = "center";
     container.style.alignItems = "center";
 }
+
 
 
 
