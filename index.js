@@ -25,6 +25,8 @@ const doorContent = {
     12: { type: 'link', src: 'https://youtu.be/12fmdI5wetA' },
     13: { type: 'link', src: 'https://youtu.be/Lr3eyyohix4' },
     14: { type: 'link', src: 'https://youtu.be/_KyKX6T9hA4' },
+    15: { type: 'link', src: 'https://youtu.be/_G5QiijAzGo' },
+    16: { type: 'link', src: 'https://youtu.be/-kuLmQCQT4k' },
     // ...add more doors as needed
 };
 // Create a display area below the calendar for videos
@@ -87,6 +89,7 @@ if (currentMonth === 11) { // December
     container.style.justifyContent = "center";
     container.style.alignItems = "center";
 }
+
 
 
 
