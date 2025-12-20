@@ -30,6 +30,12 @@ const doorContent = {
     17: { type: 'link', src: 'https://youtu.be/5SCO1JNp6qk' },
     18: { type: 'link', src: 'https://youtu.be/73XJfbqFPKA' },
     19: { type: 'link', src: 'https://youtu.be/6koyzDC9cvc' },
+    20: { type: 'link', src: 'https://youtu.be/BRzXgxJ4vVc' },
+    21: { type: 'link', src: 'https://youtu.be/KwD493IuLAw' },
+    22: { type: 'link', src: 'https://youtu.be/lNYZl-339Wg' },
+    23: { type: 'link', src: 'https://youtu.be/tpQbBm2zW8A' },
+    24: { type: 'link', src: 'https://youtu.be/k0_5UCoDQ-4' },
+ 
     // ...add more doors as needed
 };
 // Create a display area below the calendar for videos
@@ -92,6 +98,7 @@ if (currentMonth === 11) { // December
     container.style.justifyContent = "center";
     container.style.alignItems = "center";
 }
+
 
 
 
