@@ -1,7 +1,7 @@
 const container = document.querySelector('.container');
 const totalDoors = 24; // 4 columns x 6 rows
 
-const today = new Date();
+//const today = new Date();
 //const currentDay = today.getDate();
 //const currentMonth = today.getMonth();
 
